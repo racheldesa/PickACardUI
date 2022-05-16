@@ -20,5 +20,6 @@
             <Label Content="How many cards should I pick?" FontSize="20"/>
             <Slider x:Name="numberOfCards" Maximum="15" Minimum="1" AutoToolTipPlacement="TopLeft" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Foreground="Black"/>
         </StackPanel>
+        <Button Content="Pick some cards" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="20"/>
     </Grid>
 </Window>
